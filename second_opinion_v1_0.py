@@ -7,7 +7,9 @@ python enhanced_second_opinion.py \
   --incidents_store faiss_store \
   --chains_store faiss_store_chains \
   --openrouter_api_key your_openrouter_api_key \
-  --output analysis_result.json
+  --output analysis_result.
+  python3 second_opinion_v1_0.py --log_file splunklog.txt --incidents_store faiss_store --chains_store  faiss_store_chains --openrouter_api_key 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 --output  complete_op.csv
+
 """
 import faiss
 import numpy as np
